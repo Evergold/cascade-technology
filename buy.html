@@ -17,8 +17,7 @@ h3{
 	color:black;
 }
 img{
-  background-color: black;
-}
+ }
 .container {
       position: relative;
       text-align: center;
@@ -31,16 +30,19 @@ img{
 }
 </style>
 
-<link rel="shortcut icon" href="https://evergold.github.io/questsandkingdoms/E.png">
+<link rel="shortcut icon" href="Logo 1.png">
 <link rel="icon" href="E.png">
 <title>
 	Cascade Technology
 </title>
 </head>
 <body>  
+  <a href="index.html">
+<img src="logo 2.png">
+</a>
   <div class="container">
 <div class="centered" size="17">
-<h1>  Cascade Technology</h1>
+
 
 <input type="text" name="fromname" size="50" id="textfield" name="textfield" type="text" placeholder="name on card" />
 <br>
@@ -52,10 +54,16 @@ img{
 <input type="text" name="fromname" size="22" id="textfield" name="textfield" type="text" placeholder="MM/YY" />
 <input type="text" name="fromname" size="22" id="textfield" name="textfield" type="text" placeholder="security code" />
 
+<br>
 
-<a href="bought.html">
-<img src="january.png">
-</a>
+<img src="january.png"name="pic" onclick="
+if (window.document.pic.src='january.png'){
+window.document.pic.src='bought.png';
+} 
+else if (window.document.pic.src='bought.png'){
+window.document.pic.src='january.png';
+}"/>
+
 
 </div></div>
 </body>
